@@ -3,18 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14CDDF0ACD4F0D0080E7A38A /* Pods_KoffeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30F4FF4DA95867EFAD03260 /* Pods_KoffeTests.framework */; };
+		4D3EDCE124145A11B70CD062 /* Pods_Koffe_KoffeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4040CCDA1394582AA0761F8D /* Pods_Koffe_KoffeUITests.framework */; };
+		63BF9DA6DEF21EF50441EA50 /* Pods_Koffe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B21556194C6E02D3727284 /* Pods_Koffe.framework */; };
 		E4718623255B2BF700D74C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4718622255B2BF700D74C4B /* AppDelegate.swift */; };
 		E4718625255B2BF700D74C4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4718624255B2BF700D74C4B /* SceneDelegate.swift */; };
-		E4718627255B2BF700D74C4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4718626255B2BF700D74C4B /* ViewController.swift */; };
-		E471862A255B2BF700D74C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4718628255B2BF700D74C4B /* Main.storyboard */; };
 		E471862C255B2BF800D74C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E471862B255B2BF800D74C4B /* Assets.xcassets */; };
 		E471862F255B2BF800D74C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E471862D255B2BF800D74C4B /* LaunchScreen.storyboard */; };
 		E471863A255B2BF900D74C4B /* KoffeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4718639255B2BF900D74C4B /* KoffeTests.swift */; };
 		E4718645255B2BF900D74C4B /* KoffeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4718644255B2BF900D74C4B /* KoffeUITests.swift */; };
+		E4718659255B2EBA00D74C4B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4718658255B2EBA00D74C4B /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C3CF9E435015494E946251F /* Pods-Koffe-KoffeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koffe-KoffeUITests.release.xcconfig"; path = "Target Support Files/Pods-Koffe-KoffeUITests/Pods-Koffe-KoffeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4040CCDA1394582AA0761F8D /* Pods_Koffe_KoffeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koffe_KoffeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6374429575B45374CE428A07 /* Pods-KoffeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoffeTests.release.xcconfig"; path = "Target Support Files/Pods-KoffeTests/Pods-KoffeTests.release.xcconfig"; sourceTree = "<group>"; };
+		803BA8C71AA4F403F2199D01 /* Pods-KoffeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoffeTests.debug.xcconfig"; path = "Target Support Files/Pods-KoffeTests/Pods-KoffeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85936D3500CA217E8C6A32EA /* Pods-Koffe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koffe.release.xcconfig"; path = "Target Support Files/Pods-Koffe/Pods-Koffe.release.xcconfig"; sourceTree = "<group>"; };
+		87B21556194C6E02D3727284 /* Pods_Koffe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koffe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8509FA9603D29E8F641F06D /* Pods-Koffe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koffe.debug.xcconfig"; path = "Target Support Files/Pods-Koffe/Pods-Koffe.debug.xcconfig"; sourceTree = "<group>"; };
+		E30F4FF4DA95867EFAD03260 /* Pods_KoffeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoffeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E471861F255B2BF700D74C4B /* Koffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4718622255B2BF700D74C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4718624255B2BF700D74C4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4718626255B2BF700D74C4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4718629255B2BF700D74C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E471862B255B2BF800D74C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E471862E255B2BF800D74C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4718630255B2BF800D74C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,9 @@
 		E4718640255B2BF900D74C4B /* KoffeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoffeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4718644255B2BF900D74C4B /* KoffeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoffeUITests.swift; sourceTree = "<group>"; };
 		E4718646255B2BF900D74C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4718658255B2EBA00D74C4B /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E4B8557F255C3A2100CD9D08 /* Koffe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koffe.entitlements; sourceTree = "<group>"; };
+		E73B9B282B10729B085F5D17 /* Pods-Koffe-KoffeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koffe-KoffeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Koffe-KoffeUITests/Pods-Koffe-KoffeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BF9DA6DEF21EF50441EA50 /* Pods_Koffe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CDDF0ACD4F0D0080E7A38A /* Pods_KoffeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +83,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3EDCE124145A11B70CD062 /* Pods_Koffe_KoffeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1E01C40C7679E36FF034B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8509FA9603D29E8F641F06D /* Pods-Koffe.debug.xcconfig */,
+				85936D3500CA217E8C6A32EA /* Pods-Koffe.release.xcconfig */,
+				E73B9B282B10729B085F5D17 /* Pods-Koffe-KoffeUITests.debug.xcconfig */,
+				1C3CF9E435015494E946251F /* Pods-Koffe-KoffeUITests.release.xcconfig */,
+				803BA8C71AA4F403F2199D01 /* Pods-KoffeTests.debug.xcconfig */,
+				6374429575B45374CE428A07 /* Pods-KoffeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4718616255B2BF600D74C4B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				E4718638255B2BF900D74C4B /* KoffeTests */,
 				E4718643255B2BF900D74C4B /* KoffeUITests */,
 				E4718620255B2BF700D74C4B /* Products */,
+				9F1E01C40C7679E36FF034B5 /* Pods */,
+				F52EFC48D86EDA2CE42F3831 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +128,10 @@
 		E4718621255B2BF700D74C4B /* Koffe */ = {
 			isa = PBXGroup;
 			children = (
+				E4B8557F255C3A2100CD9D08 /* Koffe.entitlements */,
 				E4718622255B2BF700D74C4B /* AppDelegate.swift */,
+				E4718658255B2EBA00D74C4B /* Login.storyboard */,
 				E4718624255B2BF700D74C4B /* SceneDelegate.swift */,
-				E4718626255B2BF700D74C4B /* ViewController.swift */,
-				E4718628255B2BF700D74C4B /* Main.storyboard */,
 				E471862B255B2BF800D74C4B /* Assets.xcassets */,
 				E471862D255B2BF800D74C4B /* LaunchScreen.storyboard */,
 				E4718630255B2BF800D74C4B /* Info.plist */,
@@ -128,6 +157,16 @@
 			path = KoffeUITests;
 			sourceTree = "<group>";
 		};
+		F52EFC48D86EDA2CE42F3831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87B21556194C6E02D3727284 /* Pods_Koffe.framework */,
+				4040CCDA1394582AA0761F8D /* Pods_Koffe_KoffeUITests.framework */,
+				E30F4FF4DA95867EFAD03260 /* Pods_KoffeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4718649255B2BF900D74C4B /* Build configuration list for PBXNativeTarget "Koffe" */;
 			buildPhases = (
+				DCFB212A6D8A36F6ADEE3C9F /* [CP] Check Pods Manifest.lock */,
 				E471861B255B2BF700D74C4B /* Sources */,
 				E471861C255B2BF700D74C4B /* Frameworks */,
 				E471861D255B2BF700D74C4B /* Resources */,
+				BF0CECC9DE04B95ADBD6D00D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E471864C255B2BF900D74C4B /* Build configuration list for PBXNativeTarget "KoffeTests" */;
 			buildPhases = (
+				0F71ABE0CFDEE6A81407E3B4 /* [CP] Check Pods Manifest.lock */,
 				E4718631255B2BF900D74C4B /* Sources */,
 				E4718632255B2BF900D74C4B /* Frameworks */,
 				E4718633255B2BF900D74C4B /* Resources */,
@@ -170,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E471864F255B2BF900D74C4B /* Build configuration list for PBXNativeTarget "KoffeUITests" */;
 			buildPhases = (
+				B6D0225ED29BCAC9BB5D70FE /* [CP] Check Pods Manifest.lock */,
 				E471863C255B2BF900D74C4B /* Sources */,
 				E471863D255B2BF900D74C4B /* Frameworks */,
 				E471863E255B2BF900D74C4B /* Resources */,
+				218D8B84CDB4174738BB9F86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +277,7 @@
 			files = (
 				E471862F255B2BF800D74C4B /* LaunchScreen.storyboard in Resources */,
 				E471862C255B2BF800D74C4B /* Assets.xcassets in Resources */,
-				E471862A255B2BF700D74C4B /* Main.storyboard in Resources */,
+				E4718659255B2EBA00D74C4B /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +297,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F71ABE0CFDEE6A81407E3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoffeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		218D8B84CDB4174738BB9F86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Koffe-KoffeUITests/Pods-Koffe-KoffeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Koffe-KoffeUITests/Pods-Koffe-KoffeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Koffe-KoffeUITests/Pods-Koffe-KoffeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D0225ED29BCAC9BB5D70FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Koffe-KoffeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0CECC9DE04B95ADBD6D00D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Koffe/Pods-Koffe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Koffe/Pods-Koffe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Koffe/Pods-Koffe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFB212A6D8A36F6ADEE3C9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Koffe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E471861B255B2BF700D74C4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4718627255B2BF700D74C4B /* ViewController.swift in Sources */,
 				E4718623255B2BF700D74C4B /* AppDelegate.swift in Sources */,
 				E4718625255B2BF700D74C4B /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +442,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E4718628255B2BF700D74C4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4718629255B2BF700D74C4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E471862D255B2BF800D74C4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,9 +571,11 @@
 		};
 		E471864A255B2BF900D74C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8509FA9603D29E8F641F06D /* Pods-Koffe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Koffe/Koffe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6VJVA9LC5;
 				INFOPLIST_FILE = Koffe/Info.plist;
@@ -452,9 +592,11 @@
 		};
 		E471864B255B2BF900D74C4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85936D3500CA217E8C6A32EA /* Pods-Koffe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Koffe/Koffe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6VJVA9LC5;
 				INFOPLIST_FILE = Koffe/Info.plist;
@@ -471,6 +613,7 @@
 		};
 		E471864D255B2BF900D74C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803BA8C71AA4F403F2199D01 /* Pods-KoffeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +636,7 @@
 		};
 		E471864E255B2BF900D74C4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6374429575B45374CE428A07 /* Pods-KoffeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +659,7 @@
 		};
 		E4718650255B2BF900D74C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73B9B282B10729B085F5D17 /* Pods-Koffe-KoffeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +680,7 @@
 		};
 		E4718651255B2BF900D74C4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3CF9E435015494E946251F /* Pods-Koffe-KoffeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
