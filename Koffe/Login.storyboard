@@ -1,46 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17503.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o83-MD-iBm">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o83-MD-iBm">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17502"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="2Cx-3Q-fbQ">
             <objects>
-                <viewController id="o83-MD-iBm" sceneMemberID="viewController">
+                <viewController id="o83-MD-iBm" customClass="LoginViewController" customModule="Koffe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xwQ-uX-A2r">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Koffé" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZV-K8-tkR">
-                                <rect key="frame" x="118" y="138" width="178" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="80"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Koffé" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZV-K8-tkR">
+                                <rect key="frame" x="101.00000000000001" y="138" width="188.33333333333337" height="110"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="80"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SL-vV-xyT">
-                                <rect key="frame" x="118" y="496" width="178" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SL-vV-xyT">
+                                <rect key="frame" x="20" y="532" width="350" height="35"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" name="OpposingLabelColor"/>
                                 <state key="normal" title="Sign in with Email"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onSIWEmail:" destination="o83-MD-iBm" eventType="touchUpInside" id="CUw-5T-FxU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fui-eZ-cx9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4ZV-K8-tkR" firstAttribute="centerX" secondItem="xwQ-uX-A2r" secondAttribute="centerX" id="1Oi-pt-DHB"/>
+                            <constraint firstItem="Fui-eZ-cx9" firstAttribute="trailing" secondItem="8SL-vV-xyT" secondAttribute="trailing" constant="20" id="ENW-v9-Lzu"/>
+                            <constraint firstItem="8SL-vV-xyT" firstAttribute="leading" secondItem="Fui-eZ-cx9" secondAttribute="leading" constant="20" id="Gfb-Mo-a0Q"/>
+                            <constraint firstItem="8SL-vV-xyT" firstAttribute="leading" secondItem="Fui-eZ-cx9" secondAttribute="leading" constant="20" id="ZlA-f1-apt"/>
+                            <constraint firstItem="4ZV-K8-tkR" firstAttribute="top" secondItem="Fui-eZ-cx9" secondAttribute="top" constant="94" id="ezd-dS-yhe"/>
+                            <constraint firstItem="Fui-eZ-cx9" firstAttribute="bottom" secondItem="8SL-vV-xyT" secondAttribute="bottom" constant="243" id="sle-wg-rca"/>
+                            <constraint firstItem="Fui-eZ-cx9" firstAttribute="trailing" secondItem="8SL-vV-xyT" secondAttribute="trailing" constant="20" id="zbI-U4-Jek"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="signInWithEmailButton" destination="8SL-vV-xyT" id="M8L-nz-XxT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wdm-kn-E9k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="185.50724637681162" y="115.84821428571428"/>
+            <point key="canvasLocation" x="184.61538461538461" y="115.16587677725119"/>
         </scene>
     </scenes>
     <resources>
+        <namedColor name="OpposingLabelColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
